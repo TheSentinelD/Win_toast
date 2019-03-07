@@ -1,0 +1,8 @@
+---
+- name: win_toast
+  hosts: "{{ seznam_stanic }}"
+  tasks: 
+  - name: napíše zprávu
+    win_say: 
+     msg: "{{ zprava }}"
+     
