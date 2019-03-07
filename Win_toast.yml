@@ -3,6 +3,6 @@
   hosts: "{{ seznam_stanic }}"
   tasks: 
   - name: napíše zprávu
-    win_say: 
+    win_toast: 
      msg: "{{ zprava }}"
      
