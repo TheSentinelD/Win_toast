@@ -5,4 +5,5 @@
   - name: napíše zprávu
     win_toast: 
      msg: "{{ zprava }}"
+     expire: 180
      
